@@ -1,0 +1,25 @@
+{
+  "name": "memory-leak-handler",
+  "version": "0.0.0",
+  "description": "Handle high memory utilization in nodejs by killing the process",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normanjoyner/memory-leak-handler.git"
+  },
+  "keywords": [
+    "leak",
+    "memory",
+    "handler",
+    "utilization"
+  ],
+  "author": "Norman Joyner <norman.joyner@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/normanjoyner/memory-leak-handler/issues"
+  },
+  "homepage": "https://github.com/normanjoyner/memory-leak-handler#readme"
+}
