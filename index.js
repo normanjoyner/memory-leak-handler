@@ -14,7 +14,7 @@ class MemoryLeakHandler {
         this.max_rss = options.max_rss || 128;
         this.check_interval = options.check_interval || 1000;
 
-        if(options.on_exit && typeof options.on_exit == 'function') {
+        if(options.on_exit && typeof options.on_exit === 'function') {
             this.on_exit = options.on_exit;
         }
 
